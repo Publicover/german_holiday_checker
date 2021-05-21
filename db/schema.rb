@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2021_05_21_082243) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "holidays", force: :cascade do |t|
     t.string "name"
     t.date "day"
