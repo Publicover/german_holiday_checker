@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Holiday < ApplicationRecord
   HOLIDAYS = {
     'Fri, 1 Jan 2021'.to_date => "New Year's Day",
@@ -10,5 +12,5 @@ class Holiday < ApplicationRecord
     'Sun, 3 Oct 2021'.to_date => 'German Unity Day',
     'Sat, 25 Dec 2021'.to_date => 'Christmas Day',
     'Sun, 26 Dec 2021'.to_date => 'Second Day of Christmas'
-  }
+  }.freeze
 end
