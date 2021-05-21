@@ -5,10 +5,23 @@ html {
   min-height: 100%;
 }
 
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
 .page {
-  padding-top: 2em;
-  padding-bottom: 3em;
-  padding-left: 5em;
-  padding-right: 5em;
-  margin-top: 2em;
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+}
+
+.holiday {
+  font-size: 5em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
